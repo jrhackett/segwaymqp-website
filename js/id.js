@@ -17,7 +17,9 @@
 		$("#no-id").on("click", function(e) {
 			// TODO need to send a message to ROS to get a different person and link back
 			// this is just a temporary solution
-			window.location.href = window.location.href.replace("id.html", "checkin.html");
+			tmp = window.location.href.replace("id.html", "checkin.html");
+			tmp = tmp.substring(0, tmp.indexOf("?") + 1);
+			window.location.href = tmp;
 		});
 
 		$("#yes-id").on("click", function(e) {
