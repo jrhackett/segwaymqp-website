@@ -19,6 +19,7 @@
 			// this is just a temporary solution
 			tmp = window.location.href.replace("id.html", "checkin.html");
 			tmp = tmp.substring(0, tmp.indexOf("?") + 1);
+			console.log(tmp);
 			window.location.href = tmp;
 		});
 
