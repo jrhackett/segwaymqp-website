@@ -1,0 +1,29 @@
+{
+	"patients" : [
+		{
+			"firstName": "Jake",
+			"lastName": "Hackett",
+			"gender": "male"
+		},
+		{
+			"firstName": "Tom",
+			"lastName": "Farro",
+			"gender": "male"
+		},
+		{
+			"firstName": "Joe",
+			"lastName": "Fainer",
+			"gender": "male"
+		},
+		{
+			"firstName": "Emily",
+			"lastName": "Yu",
+			"gender": "female"
+		},
+		{
+			"firstName": "Erin",
+			"lastName": "Leger",
+			"gender": "female"
+		}
+	]
+}

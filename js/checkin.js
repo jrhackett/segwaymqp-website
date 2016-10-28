@@ -8,7 +8,7 @@
 			console.log(lastName);
 			console.log("trying to get json");
 
-			$.getJSON("patients.json", function(data) {
+			$.getJSON("assets/patients.json", function(data) {
 				$.each(data["patients"], function(key, val) {
 					if(val["lastName"].toLowerCase() == lastName.toLowerCase())  {
 						console.log(val["firstName"] + " " + val["gender"]);
