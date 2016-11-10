@@ -12,7 +12,7 @@
 		var fullName = firstName + " " + lastName;
 
 		$("#identification-name").text(fullName);
-		$("#identification-picture").attr("src", "../assets/" + gender + ".png");
+		$("#identification-picture").attr("src", "assets/" + gender + ".png");
 
 
 		$("#no-id").on("click", function(e) {
