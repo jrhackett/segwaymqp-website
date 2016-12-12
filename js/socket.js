@@ -40,7 +40,7 @@
 
 	listener.subscribe(function(message) {
 		console.log('Received message on ' + listener.name + ': ' + message.data);
-		document.getElementById("messages").textContent = message.data;
+		// document.getElementById("messages").textContent = message.data;
 		//listener.unsubscribe(); <--- how to unsubscribe, if you wanted to
 	});
 
@@ -68,7 +68,7 @@
 				console.log('Result for service call on '
 					+ addTwoIntsClient.name
 					+ ': '
-				 	result.sum);
+				 	+ result.sum);
 				document.getElementById("output").textContent = result.sum;
 			});
 

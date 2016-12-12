@@ -12,7 +12,8 @@
 		var fullName = firstName + " " + lastName;
 
 		$("#identification-name").text(fullName);
-		$("#identification-picture").attr("src", "../assets/" + gender + ".png");
+		$("#identification-picture").attr("src", "assets/" + gender + ".png");
+
 
 		$("#no-id").on("click", function(e) {
 			// TODO need to send a message to ROS to get a different person and link back
