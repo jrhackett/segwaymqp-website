@@ -245,6 +245,14 @@ body.second.id .choice-inner {
   transform-origin: 50%;
 }
 
+.main-message {
+	text-align: center;
+}
+
+.main-message h1 {
+	color: white;
+}
+
 @-webkit-keyframes blink { 
   0% { -webkit-transform: scaleX(1) scaleY(1); } 
   1% { -webkit-transform: scaleX(1.3) scaleY(0.1); } 
