@@ -17,12 +17,12 @@
 
 		var publisher = new ROSLIB.Topic({
 			ros : ros,
-			name : '/python_server',
+			name : '/contact',
 			messageType : 'std_msgs/String'
 		});
 
 		var msg = new ROSLIB.Message({
-			data: 'client_handshake'
+			data: 'HDI'
 		});
 
 		$(document).ready(function() {
